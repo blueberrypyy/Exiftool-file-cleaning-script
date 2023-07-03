@@ -4,7 +4,7 @@ import shutil as sh
 from time import sleep
 
 
-# list all .py files
+# list all files tagged with "_original"
 def list_originals():
     if glob.glob('*_originals') is None:
         print('No files tagged with "original" found. Exitting program.')
