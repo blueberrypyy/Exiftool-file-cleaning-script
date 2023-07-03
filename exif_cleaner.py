@@ -6,7 +6,7 @@ from time import sleep
 
 # list all files tagged with "_original"
 def list_originals():
-    if glob.glob('*_originals') is None:
+    if glob.glob('*_original') is None:
         print('No files tagged with "original" found. Exitting program.')
         sleep(2)
         exit()
